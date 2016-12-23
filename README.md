@@ -84,9 +84,12 @@ The animation draws a line to the Y-axis. This is useful to compare the differen
     3.I also added a short section explaining the passenger class and that the data doesn't have info on all the passengers who were onboard the Titanic but rather it is a subsection of the passengers on the Titanic.
     4.The words 'first' and 'highest' are in bold to help the reader draw a visual connection between first and highest. Similarly 'third' and 'lowest' have a connection using italics. This helps to reinforce the order of the classes to the reader.
     5.The passenger class on X-axis starts from third class instead of first class. This is to further reinforce that 3rd class is the lowest class.
+    6.Chart info on hover also updated to make it more clear to viewers. 'Pclass' replaced by 'Class', 'Survived' replaced by 'Status'. New data columns are created at the data munging stage to aid in this.
 
 ##Future Work:
     There is scope for future work. The visualization can be further divided into gender/age to see how people of different genders in different passenger classes fared.
 
 ##Resources
 https://github.com/PMSI-AlignAlytics/dimple/wiki/dimple.axis
+https://github.com/PMSI-AlignAlytics/dimple/wiki/dimple.legend
+http://blog.invisionapp.com/finding-the-right-color-palettes-for-data-visualizations/
