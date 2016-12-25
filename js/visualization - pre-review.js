@@ -1,3 +1,4 @@
+
 function drawChart(data){
 
     // Modify the original data to ensure that legend shows Survived and
@@ -5,24 +6,14 @@ function drawChart(data){
     // Modify original data to replace passenger class in numbers by words
     // Replace 0,1,2 by first class, second class, third class
     data.forEach(function(d){
-          if(d['Survived']==="0"){
-              d['Status']="Perished";
-          }
-          else if(d['Survived']==="1"){
-              d['Status']="Survived";
-          }
+		  if(d['Survived']==="0"){d['Status']="Perished";}
+		  else if(d['Survived']==="1"){d['Status']="Survived";}
 
-          if(d['Pclass']==="1"){
-              d['Class']="First Class";
-          }
-          else if (d['Pclass']==="2"){
-              d['Class']="Second Class";
-          }
-          else if (d['Pclass']==="3"){
-              d['Class']="Third Class";
-          }
+          if(d['Pclass']==="1"){d['Class']="First Class";}
+          else if (d['Pclass']==="2") {d['Class']="Second Class";}
+          else if (d['Pclass']==="3") {d['Class']="Third Class";}
 
-          });
+		  });
 
     "use strict";
     var margin=75,

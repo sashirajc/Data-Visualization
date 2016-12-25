@@ -3,7 +3,7 @@ Udacity Data Visualization Project by Sashiraj Chandrasekaran
 
 ##Summary
 
-This project uses the Titanic Dataset. The dataset contains the name, age, gender, passenger class, survial,ticket, fare, cabin number, embarkation location and info on family members travelling along. The chart explores the number of people who perished vs the number of people who survived in the Titanic shipwreck. The chart further divides people by the passenger class that they travelled in. The design and feedback are provided in the next sections.
+This project uses the Titanic Dataset. The dataset contains the name, age, gender, passenger class, survial,ticket, fare, cabin number, embarkation location and info on family members travelling along. The chart explores the number of people who perished vs the number of people who survived in the Titanic shipwreck. The chart further divides people by the passenger class that they travelled in. It can be observed that passengers in the first class had the highest chance of surviving while passengers in the lowest class had the least chance of surviving the accident. The design and feedback are provided in the next sections.
 
 
 ##Design
