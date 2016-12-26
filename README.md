@@ -5,6 +5,9 @@ Udacity Data Visualization Project by Sashiraj Chandrasekaran
 
 This project uses the Titanic Dataset. The dataset contains the name, age, gender, passenger class, survial,ticket, fare, cabin number, embarkation location and info on family members travelling along. The chart explores the number of people who perished vs the number of people who survived in the Titanic shipwreck. The chart further divides people by the passenger class that they travelled in. It can be observed that passengers in the first class had the highest chance of surviving while passengers in the lowest class had the least chance of surviving the accident. The design and feedback are provided in the next sections.
 
+Post-review update:
+A new chart was added which shows a percentage of the passengers who survived from each class. Passengers from the first class had the
+highest survival rate followed by second class and lastly the third class.
 
 ##Design
 
@@ -15,7 +18,9 @@ The data used in this Visualization is categorical. Hence a column chart is the 
 
 The data had to be modified a bit, to ensure that the legend showed perished/survived instead of 0/1. The survived column in the dataset was modified. The 0 in the column were replaced with Perished and 1 is replaced with Survived.
 
-The animation draws a line to the Y-axis. This is useful to compare the different columns based on the Y-axis. This is useful for some of the columns which have values that are close to each other.
+The animation draws a line to the Y-axis. This is useful to compare the different columns based on the Y-axis. This is useful for some of the columns which have values that are close to each other. Tooltips are also displayed to give the reader a sense of the numbers behind the
+visualization.
+
 
 
 ##Feedback
@@ -85,6 +90,12 @@ The animation draws a line to the Y-axis. This is useful to compare the differen
     4.The words 'first' and 'highest' are in bold to help the reader draw a visual connection between first and highest. Similarly 'third' and 'lowest' have a connection using italics. This helps to reinforce the order of the classes to the reader.
     5.The passenger class on X-axis starts from third class instead of first class. This is to further reinforce that 3rd class is the lowest class.
     6.Chart info on hover also updated to make it more clear to viewers. 'Pclass' replaced by 'Class', 'Survived' replaced by 'Status'. New data columns are created at the data munging stage to aid in this.
+
+##Post-review design:
+    Based on feedback received from the project review,
+    1.I did some data munging in Excel and displayed the data on a new chart. The new chart displays the percentage of passengers who
+    survived from each class.
+    2.The passenger class on chart 2 X-Axis, starts from Third Class to be consistent with the previous design choices for the first chart.
 
 ##Future Work:
     There is scope for future work. The visualization can be further divided into gender/age to see how people of different genders in different passenger classes fared.

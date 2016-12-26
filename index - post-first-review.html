@@ -5,7 +5,7 @@
     <link rel="stylesheet" type="text/css" href="/css/styles.css">
     <script src="http://d3js.org/d3.v3.min.js"></script>
     <script src="http://dimplejs.org/dist/dimple.v2.0.0.min.js"></script>
-    <script src=/js/visualization.js></script>
+    <script src="/js/visualization - post-first-review.js"></script>
     <title>Sashi Titanic Visualization</title>
     <h2 class="headings">Titanic Survivors</h2>
 
@@ -24,27 +24,19 @@
              class in a ship and <i>third</i> class is the <i>lowest</i>.
              <br>
              <br>
-
+             Passengers from the <strong>first class had the best chances of surviving</strong> while
+             passengers in the <i>lowest class had the worst chance of surviving</i>.
         </p>
     </div>
     <div id="chart">
-
         <h3 class="headings"> Statistics of passengers from each class who
             perished/survived Titanic</h3>
 
-        <!-- Exploratory Chart -->
         <div class= "chart_class" id="chart_id"></div>
-        <p id="bodyID">Passengers from the <strong>first class had the best chances of surviving</strong> while
-        passengers in the <i>lowest class had the worst chance of surviving</i>.</p>
-        <!-- Explanatory Chart -->
-        <h3 class= "headings"> Percentage of passengers who survived in the disaster (from each class)</h3>
-        <div class= "chart_class" id="chart_id_2"></div>
-
     </div>
 
     <script type="text/javascript">
         d3.csv("data/titanic_data.csv",drawChart);
-
     </script>
 
 </body>
